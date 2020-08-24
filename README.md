@@ -16,7 +16,7 @@ Tables are broken into:
 - group
 
 
-![alt text](https://ibb.co/r7ymNDk)
+![alt text](https://github.com/alickzhang97/content_access_etl/blob/master/content_access_ERD.png)
 
 
 `etl_to_bq.py` leverages the BigQuery API and automates ETL process by directly uploading/updating tables based off ETL job. This file can be hosted on a server to automate and run based off cron
