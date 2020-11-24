@@ -18,6 +18,6 @@ Tables are broken into:
 ![alt text](https://github.com/alickzhang97/content_access_etl/blob/master/content_access_ERD.png)
 
 
-`etl_to_bq.py` leverages the BigQuery API and automates ETL process by directly uploading/updating tables based off ETL job. This file can be hosted on a server to automate and run based off cron
+`etl_to_bq.py` leverages the BigQuery API and automates ETL process by directly uploading/updating tables based off ETL job. This file can be hosted on a server to automate and run based off cron. Be se sure to run this code in a secure network/platform like Cloudtop since there are json/p12 keys involved
 
 ETL job should be done into BigQuery database and we should be able to use the predefined block listed [here](https://github.com/alickzhang97/content_access_final_lkml) to generate prebuilt dashboards/content
