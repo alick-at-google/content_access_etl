@@ -11,7 +11,6 @@ Tables are broken into:
 - folder
 - folder_access
 - content
-- content
 - user
 - group
 
