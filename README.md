@@ -21,4 +21,4 @@ Tables are broken into:
 
 `etl_to_bq.py` leverages the BigQuery API and automates ETL process by directly uploading/updating tables based off ETL job. This file can be hosted on a server to automate and run based off cron
 
-ETL job should be done into BigQuery database and we should be able to use the predefined block listed [here](https://github.com/alickzhang97/content_access_lookml) to generate prebuilt dashboards/content
+ETL job should be done into BigQuery database and we should be able to use the predefined block listed [here](https://github.com/alickzhang97/content_access_final_lkml) to generate prebuilt dashboards/content
