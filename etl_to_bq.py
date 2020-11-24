@@ -2,8 +2,8 @@ from datalab.context import Context
 import datalab.storage as storage
 import datalab.bigquery as bq
 from google.cloud import bigquery
-
-#/Users/alickzhang/desktop/mysdk/contentaccess-d2808270be30.json
+#path to json key
+path = ''
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '____PATH_TO_KEY_____'
 # Construct a BigQuery client object.
@@ -22,7 +22,7 @@ load_job = client.load_table_from_dataframe(folder_access_df, table_ref)
 #etljob
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/alickzhang/desktop/mysdk/contentaccess-d2808270be30.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = path
 # Construct a BigQuery client object.
 client = bigquery.Client()
 
